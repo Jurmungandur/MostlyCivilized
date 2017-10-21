@@ -20,7 +20,7 @@ public class HexMap : MonoBehaviour {
                 //Instantiate a Hex
                 Hex h = new Hex(column, row);
 
-                Instantiate(hexPrefab, -h.Pos(), Quaternion.identity, this.transform);
+                Instantiate(hexPrefab, h.Pos(), Quaternion.identity, this.transform);
             }
         }
     }
