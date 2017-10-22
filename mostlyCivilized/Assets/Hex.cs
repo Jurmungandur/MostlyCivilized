@@ -28,4 +28,14 @@ public class Hex {
 
         return new Vector3(horiz * (this.Q + this.R / 2f),0,vert * this.R);
     }
+
+    public float HexHeight()
+    {
+        return radius * 2;
+    }
+
+    public Vector3 PositionFromCamera(Vector3 cameraPosition, float numRows, float numColumns)
+    {
+        float mapHeight =  
+    }
 }
