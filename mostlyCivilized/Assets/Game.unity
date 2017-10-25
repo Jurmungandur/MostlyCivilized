@@ -149,6 +149,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPrefab: {fileID: 1269948581710014, guid: 9ea6a5ea9df76de46912d5fc8083dcbd, type: 2}
+  HexMaterials:
+  - {fileID: 2100000, guid: 7aef6c040db609347bac371914ba8703, type: 2}
+  - {fileID: 2100000, guid: f0dd3a0cbcb4bf942a77c354cec69bfb, type: 2}
+  - {fileID: 2100000, guid: d7e7f2aaaeccabf43a2f4584cf78d903, type: 2}
+  - {fileID: 2100000, guid: 6185cd227488b2a408a255ac52cf6b14, type: 2}
+  - {fileID: 2100000, guid: 97d1bd3bba9adf648ab2da6c73f80c98, type: 2}
 --- !u!1 &890140975
 GameObject:
   m_ObjectHideFlags: 0
